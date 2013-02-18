@@ -1,0 +1,70 @@
+body {
+	font-family: Helvetica;
+}
+
+#container {
+	width: 19em;
+	margin-right: 6px;
+}
+#container.fit-table {
+	width: 35em; /* table has 5 columns x 7em = 35em */
+}
+
+#data table {
+	border: 1px solid black;
+	border-collapse: collapse;
+	margin-top: 5px;
+}
+#data table td {
+	border: 1px solid black;
+	width: 7em;
+	padding: 2px;
+	text-align: right;
+}
+#data table tr:first-child td {
+	text-align: left;
+	background: #0D0;
+}
+#data input {
+	width: 7em;
+	text-align: right;
+	display: inline-block;
+	border: 0;
+	padding: 0;
+	background: #DDD;
+}
+#data input#del_button {
+	margin-right: -2em;
+	margin-left: 4px;
+	width: 1.7em;
+}
+
+.running {
+	background-color: #F50;
+}
+
+#inputs {
+	border: 3px double #0D0;
+	padding: 2px;
+}
+#inputs input {
+	font-size: 13pt;
+	text-align: center;
+}
+
+#function_buttons, #edit_mode {
+	margin-top: 0.5em;
+	margin-left: 2px;
+}
+#function_buttons input#add_button {
+	width: 40%;
+}
+#function_buttons input {
+	width: 15%; /* 4 butts in 60% space = 15% per butt */
+}
+#edit_mode input#project_name {
+	text-align: left;
+}
+#save_button, #cancel_button {
+	width: 50%;
+}

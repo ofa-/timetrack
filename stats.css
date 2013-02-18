@@ -1,0 +1,26 @@
+#stats {
+	border: 3px double #0D0;
+	padding: 2px;
+}
+
+#stats div {
+	position: relative;
+	margin-left: 1em;
+}
+#stats div u {
+	position: relative;
+	text-decoration: none;
+	text-align: left;
+	display: inline-block;
+	width: 5em;
+}
+#stats div u u {
+	position: absolute;
+	right: 0;
+	width: 1em;
+}
+#stats div span {
+	position: absolute;
+	right: 0;
+	text-align: right;
+}
